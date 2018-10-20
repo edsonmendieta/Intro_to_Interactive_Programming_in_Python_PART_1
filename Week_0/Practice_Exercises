@@ -29,3 +29,9 @@ Solution: print 1000 * (1 + 0.01 * 7) ** 10
 8. Write a single Python statement that combines the three strings "My name is", "Joe" and "Warren" (plus a couple of other small strings) into one larger string "My name is Joe Warren." and prints the result.
 
 print "My name is " + "Joe " + "Warren."
+
+9. Write a Python expression that combines the string "Joe Warren is 52 years old." from the string "Joe Warren" and the number 52 and then prints the result.
+
+Solution: print "Joe Warren " + "is " + str(52) + " years old."
+
+10. 
