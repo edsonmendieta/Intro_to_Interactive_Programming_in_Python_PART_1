@@ -21,3 +21,7 @@ Solution: print 2 * 3.14 * 8
 6. The area of a circle is πr^2, where r is the radius of the circle. (The raised 2 in the formula is an exponent.) Write a Python statement that calculates and prints the area in square inches of a circle whose radius is 8 inches. Assume that the constant π=3.14.
 
 Solution: print 3.14 * 8 ** 2
+
+7. Given pp dollars, the future value of this money when compounded yearly at a rate of r percent interest for y years is p(1 + 0.01r)^y. Write a Python statement that calculates and prints the value of 1000 dollars compounded at 7 percent interest for 10 years.
+
+Solution: print 1000 * (1 + 0.01 * 7) ** 10
