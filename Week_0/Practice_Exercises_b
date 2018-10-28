@@ -18,6 +18,10 @@ Solution: area = width * height
 
 Solution: circumference = 2 * PI * radius
 
-6. 
+6. Given a template that pre-defines the constant PI and the variable radius corresponding to the radius of a circle in inches, write an assignment statement that defines a variable area whose value is the area of a circle with radius radius in square inches.
+
+Solution: area = PI * radius ** 2
+
+7. 
 
 Solution: 
