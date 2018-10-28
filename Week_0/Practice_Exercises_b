@@ -22,10 +22,14 @@ Solution: circumference = 2 * PI * radius
 
 Solution: area = PI * radius ** 2
 
-7. Give the pre-defined variables first_name and last_name, write an assignment statement that defines the variable name_tag whose value is the string "My name is % %." where the percents should be replaced by first_name and last_name.
+7. 
+
+Solution: 
+
+8. Give the pre-defined variables first_name and last_name, write an assignment statement that defines the variable name_tag whose value is the string "My name is % %." where the percents should be replaced by first_name and last_name.
 
 Solution: name_tag = "My name is " + first_name + " " + last_name + "."
 
-8.
+9.
 
 Solution:
