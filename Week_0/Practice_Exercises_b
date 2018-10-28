@@ -22,14 +22,14 @@ Solution: circumference = 2 * PI * radius
 
 Solution: area = PI * radius ** 2
 
-7. 
+7. Given the pre-defined variables present_value, annual_rate and years, write an assignment statement that define a variable future_value whose value is present_value dollars invested at annual_rate percent interest, compounded annually for years years.
 
-Solution: 
+Solution: future_value = present_value * (1 + 0.01 * annual_rate) ** years
 
 8. Give the pre-defined variables first_name and last_name, write an assignment statement that defines the variable name_tag whose value is the string "My name is % %." where the percents should be replaced by first_name and last_name.
 
 Solution: name_tag = "My name is " + first_name + " " + last_name + "."
 
-9.
+9. 
 
-Solution:
+Solution: 
