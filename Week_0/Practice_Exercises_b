@@ -1,3 +1,7 @@
 1. Given a template that pre-defines a variable miles, write an assignment statement that defines a variable feet whose value is the number of feet in \color{red}{\verb|miles|}miles miles.
 
 Solution: feet = miles * 5280
+
+2. Given a template that pre-defines three variables hours, minutes and seconds, write an assignment statement that updates the variable total_seconds to have a value corresponding to the total number of seconds for hours hours, minutes minutes and seconds seconds.
+
+Solution: total_seconds = hours * 60 ** 2 + minutes * 60 + seconds
