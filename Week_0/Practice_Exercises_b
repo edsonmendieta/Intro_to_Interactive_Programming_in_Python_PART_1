@@ -5,3 +5,11 @@ Solution: feet = miles * 5280
 2. Given a template that pre-defines three variables hours, minutes and seconds, write an assignment statement that updates the variable total_seconds to have a value corresponding to the total number of seconds for hours hours, minutes minutes and seconds seconds.
 
 Solution: total_seconds = hours * 60 ** 2 + minutes * 60 + seconds
+
+3. Given a template that pre-defines the variables width and height that are the lengths of the sides of a rectangle, write an assignment statement that defines a variable perimeter whose value is the perimeter of the rectangle in inches.
+
+Solution: perimeter = width * 2 + height * 2
+
+4. 
+
+Solution: 
