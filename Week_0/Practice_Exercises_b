@@ -38,6 +38,14 @@ Solution: statement = name + " is " + str(age) + " years old."
 
 Solution: distance = ((x0 - x1) ** 2 + (y0 - y1) ** 2) ** 0.5
 
-11. 
+11. Challenge: Heron's formula states the area of a triangle is (s(s−a)(s−b)(s−c))^0.5 where a, b, and c are the lengths of the sides of the triangle and s=12(a+b+c) is the semi-perimeter of the triangle. Given the variables x0, y0, x1,y1, x2, and y2, write a Python program that computes a variable area whose value is the area of the triangle with vertices (x0,y0), (x1,y1), and (x2,y2).
 
 Solution: 
+
+side1 = ((x0 - x1) ** 2 + (y0 - y1) ** 2) ** 0.5
+side2 = ((x0 - x2) ** 2 + (y0 - y2) ** 2) ** 0.5
+side3 = ((x1 - x2) ** 2 + (y1 - y2) ** 2) ** 0.5
+
+semi_perimeter = 0.5 * (side1 + side2 + side3)
+
+area =  (semi_perimeter * (semi_perimeter - side1) * (semi_perimeter - side2) * (semi_perimeter - side3)) ** 0.5
